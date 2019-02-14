@@ -572,12 +572,12 @@
   <dashboards>
     <dashboard name='Dashboard 1'>
       <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <size maxheight='500' maxwidth='960' minheight='500' minwidth='960' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98000' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
-            <zone fixed-size='160' h='98000' id='4' is-fixed='true' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
-              <zone fixed-size='492' h='62500' id='1' is-fixed='true' name='bar' show-caption='true' w='98400' x='800' y='1000'>
+          <zone h='96800' id='5' param='horz' type='layout-flow' w='98334' x='833' y='1600'>
+            <zone fixed-size='160' h='96800' id='4' is-fixed='true' param='vert' type='layout-flow' w='98334' x='833' y='1600'>
+              <zone fixed-size='492' h='96800' id='1' is-fixed='true' name='bar' show-caption='true' w='98334' x='833' y='1600'>
                 <layout-cache type-h='fixed' type-w='fixed' />
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -595,7 +595,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='9500' id='6' name='bar' pane-specification-id='0' param='[federated.0gi05ap17o9bfs1dojv6p1wz9ixn].[sum:Number of Records:qk]' type='color' w='14000' x='83500' y='22250' />
+        <zone h='14200' id='6' name='bar' pane-specification-id='0' param='[federated.0gi05ap17o9bfs1dojv6p1wz9ixn].[sum:Number of Records:qk]' type='color' w='13958' x='83646' y='34200' />
       </zones>
     </dashboard>
     <dashboard name='Dashboard 2'>
@@ -723,14 +723,14 @@
       </cards>
       <simple-id uuid='{9B541FFF-78E4-4591-B6CF-50A18F102555}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='bar' />
       </viewpoints>
       <active id='1' />
       <simple-id uuid='{A5E9F921-20DF-4CA5-A871-9D60836036EE}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 2'>
+    <window class='dashboard' name='Dashboard 2'>
       <viewpoints>
         <viewpoint name='Sheet 3'>
           <zoom type='entire-view' />
@@ -745,7 +745,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='1' />
       <simple-id uuid='{990763F9-722B-4936-9EF4-0B89318324CA}' />
     </window>
   </windows>
