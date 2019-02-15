@@ -41,8 +41,8 @@ d3.csv("dataset/incidents.csv").then(function(data) {
 
 var drawBarChart = function() {
   // Get svg to draw
-  let svg = d3.select("body").select("section:nth-child(3)").select("div").select("svg");
-  // console.log(svg.node());
+  let svg = d3.select("#viz2");
+//   console.log(svg.node());
   
   // Get max & min count
   let countMin = 0;
@@ -122,7 +122,7 @@ var drawBarChart = function() {
 
   // Title
   svg.append('text')
-  .text('Relationship between number of accidents and day of week')
+  .text('occurence of incidents during weekdays')
   .style('fill', '#292929')
   .attr('x', bounds.left + 60)
   .attr('y', 30)
