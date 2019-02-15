@@ -79,7 +79,7 @@ d3.csv('dataset/dataset2.csv').then((data) => {
     svg.append('text')
     .text('top 5 neighborhoods where most incidents happen')
     .style('fill', '#292929')
-    .attr('x', bounds.left + 120)
+    .attr('x', plotWidth / 2 - 120)
     .attr('y', 30)
     .style("font-size", "18px")
     .style('font-family', 'Helvetica');

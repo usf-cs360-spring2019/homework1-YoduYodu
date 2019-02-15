@@ -124,7 +124,7 @@ var drawBarChart = function() {
   svg.append('text')
   .text('occurence of incidents during weekdays')
   .style('fill', '#292929')
-  .attr('x', bounds.left + 60)
+  .attr('x', plotWidth / 2)
   .attr('y', 30)
   .style("font-size", "18px")
   .style('font-family', 'Helvetica');
